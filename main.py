@@ -13,15 +13,17 @@ bucket_list.append(restaurant2)
 restaurant3 = input('맛집 리스트 입력: ')
 bucket_list.append(restaurant3)
 
-print(bucket_list)
+print(f'리스트 : {bucket_list}')
 
 vip_restaurant = input('맛집 리스트 추가: ')
 bucket_list.insert(0, vip_restaurant)
 
-print(bucket_list)
+print(f'리스트 : {bucket_list}')
 
-visited_restaurant = input(' 도장깨기 : ')
+
+visited_restaurant = input('도장깨기 : ')
 bucket_list.remove(visited_restaurant)
 
-print(bucket_list)
+print(f'리스트 : {bucket_list}')
+
 
